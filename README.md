@@ -91,6 +91,8 @@ We first began creating wireframes to work out this structure and general conten
 
 ![wireframe](https://user-images.githubusercontent.com/29276064/58099320-4b1cb800-7bd3-11e9-8031-55de3f457f4d.png)
 
+![db_structure](https://user-images.githubusercontent.com/29276064/58105197-01859a80-7bde-11e9-8a51-1090f34bf70b.jpg)
+
 This was an iterative, sometimes subjective, but ultimately very constructive process. Sketching out the user flows in this way greatly assisted in structuring the code and filing.
 
 When we had decided our workflow we decided all team members should experience working on the backend and front end of the application.
