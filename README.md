@@ -39,15 +39,13 @@ Booker is a web app book sharing community - where users share their book collec
 
 <img width="750" alt="frontend_home" src="https://user-images.githubusercontent.com/29276064/58100254-2e817f80-7bd5-11e9-8dab-55acf7a1824b.png">
 
+![frontend_about](https://user-images.githubusercontent.com/29276064/58102423-288d9d80-7bd9-11e9-9aa1-79457fe14401.png)
+
 | Viewing all books, filtering by library, searching for a specific book and then rating and reviewing it. |
 |:--:|
 |![bookermain](https://user-images.githubusercontent.com/29276064/58099989-b0bd7400-7bd4-11e9-8639-2b7e881f3a56.gif) |
 
- | Adding a new book from the main Books page |
- |:--:|
- | ![Adding a book](./src/assets/readme/frontend_books_add.gif) |
-
-Functionality:
+### Functionality:
 
 - The user can register, login and update or delete their user profile
 - The user upload their books to the app and create a library of books so that other users can borrow them
@@ -56,24 +54,6 @@ Functionality:
 - The user can know how far the books they want to borrow are and where other libraries are on a map
 - They can see the book title, author, reviews and ratings of books to make decisions whether to borrow the book or not
 - The user can view books out on loan and the books they are loaning in one place
-
- | Page | Path | Features <br> _(Logged Out)_ | Additional Features <br> _(Logged In)_ |
- |:---:|:---:|---|---|
- | [Nav bar](./src/components/common/nav.js) | _On all pages_ | - Navigate to pages that do not require login <br> - Login or register | - Navigate to SecureRoute pages <br> - Logout |
- | [Home](./src/components/pages/home.js) | / | View the app name/logo and tagline | |
- | [About](./src/components/pages/about.js) | /about | View the value proposition/brief explanation |  |
- | [Login](./src/components/auth/login.js) | /login | Login as a returning (registered) users | |
- | [Register](./src/components/auth/register.js) | /register | Register as a new user | |
- | [Books (All)](./src/components/books/booksAll.js) | /books | View all books in the database | View the distance between the logged in user's library and the libraries that the books are in  |
- | [Book Show (Individual books)](./src/components/books/bookShow.js) | /books/:id |  View details of the chosen book: <br> - Book title <br> - Author <br> - Rating and reviews <br> - Owner information <br> - Loan request functionality |  - All users can rate and review the book <br> - Existing reviews can be deleted by the user that created the review <br> - Users that own the book can remove/delete it |
- | [Book Add](./src/components/books/bookAdd.js) | /books/add | _Login required to access this page_ | Add a book by filling in a blank [BookForm](./src/components/books/bookForm.js) with the following: <br> - Text fields for title, author, image URL <br> - Select dropdown with options for genre <br> - Checkbox (styled as a toggle button) for non-/fiction <br> - Radio buttons for review <br> - Textarea for description and review |
- | [Book Update](./src/components/books/bookUpdate.js) | /books/:id/update | _Login required to access this page_ | Users that own the book can change book information by filling in a pre-populated version of the [BookForm](./src/components/books/bookForm.js) |
- | [Book Loan](./src/components/books/bookLoan.js) | /books/:id/loan | _Login required to access this page_ | Users that don't own the book can create loan requests |
- | [Libraries](./src/components/books/libraries.js) | /libraries | View all libraries by location, including: <br> - A book count in the marker <br> - Library name, picture and description in a popup |  - View the logged in user's own library location and details <br> - Link to the User Profile page to view and edit user information |
- | [Loans](./src/components/loans/loansAll.js) | /loans | _Login required to access this page_ | Loan management page for books loaned out and books borrowed |
- | [User Profile](./src/components/users/userprofile.js) | /users | _Login required to access this page_ | Profile page of the user where they can view and delete their profile and library information |
- | [Edit Profile](./src/components/users/userEdit.js) | /userEdit | _Login required to access this page_ | Page for users to update their profile and library information |
- | [404](./src/components/pages/404.js) | /* | Error 404 page for when users attempt to access a page that does not exist | &nbsp; |
 
 ## Technologies
 
