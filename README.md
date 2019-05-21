@@ -126,7 +126,7 @@ const reviewSchema = new mongoose.Schema({
  user: {type: mongoose.Schema.ObjectId, ref: 'User', autopopulate: true }
 })
 ```
-#### [Seeds](./db/seeds.js)
+### [Seeds](./db/seeds.js)
 
 Next I created a few seeds for books.
 
@@ -216,11 +216,9 @@ describe('POST /api/books', () => {
   })
 ~~~
 
-#User Profile
+### User Profile
 
 When I had completed testing for the book add and creation routes, more functionality was added to the application by allowing the logged in user to update their details, or delete their profile.
-
-[Users](./controllers/users.js)
 
 Complete CRUD cycle for users:
 
@@ -273,19 +271,10 @@ function userDelete(req, res) {
 }
 ~~~
 
-### Styling
+## Styling
 
-#### Concept
+### Concept
 Our group decided to keep the interface simple and intuitive to use. Hence styling was implemented using the [Bulma CSS framework](https://bulma.io/). Bulma has classes which are structured greatly speed up the process of creating grid layouts in particular, such as we used for the Books (All) page.
-
-There are several different sets of information that need to be displayed on the various pages of the site - the aim was to keep these as uniformed as possible. To help visually tie the pages together a colour-coded styling language was developed for the buttons.
-
-| |Buttons|
-|:----:|:----|
-|Large|![Libraries Logged In](./src/assets/readme/buttons_large.png)|
-|Small|![Libraries Logged In](./src/assets/readme/buttons_small.png)|
-
-View the style SCSS file [here](./src/style.scss)
 
 ## Challenges
 
