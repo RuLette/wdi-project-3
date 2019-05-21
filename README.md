@@ -16,8 +16,8 @@ https://ga-booker.herokuapp.com/
 6. [Development process](#development-process)
 7. [Work allocation](#work-allocation)
 8. [Testing](#testing)
-9. [Wins](#wins)
-10. [Challenges](#challenges)
+9. [Challenges](#challenges)[Wins](#wins)
+10. [Wins](#wins)
 11. [Future Features](#future-features)
 
 ## Brief
