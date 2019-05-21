@@ -37,8 +37,6 @@ In alphabetical order:
 
 Booker is a web app book sharing community - where users share their book collections by loaning out and borrowing books from other user.
 
-<img width="750" alt="frontend_home" src="https://user-images.githubusercontent.com/29276064/58100254-2e817f80-7bd5-11e9-8dab-55acf7a1824b.png">
-
 ![frontend_about](https://user-images.githubusercontent.com/29276064/58102423-288d9d80-7bd9-11e9-9aa1-79457fe14401.png)
 
 | Viewing all books, filtering by library, searching for a specific book and then rating and reviewing it. |
@@ -97,6 +95,8 @@ When we had decided our workflow we decided all team members should experience w
 
 # Work allocation
 
+### Book Schema
+
 In the back end I first created a schema for books.
 
 ```js
@@ -130,7 +130,6 @@ const reviewSchema = new mongoose.Schema({
 
 Next I created a few seeds for books.
 
-#### Seeds promises
 In the seeds file, JavaScript promises were used to ensure that the database is always seeded in the correct order. This is because certain data models require others to exist before they can be created:
   - Books can only be created once users (book owners) and genres have been created
   - Loans can only be created once users and books have been created
