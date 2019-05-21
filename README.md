@@ -222,7 +222,7 @@ describe('POST /api/books', () => {
   })
 ~~~
 
-### User Profile
+## User Profile
 
 When I had completed testing for the book add and creation routes, more functionality was added to the application by allowing the logged in user to update their details, or delete their profile.
 
