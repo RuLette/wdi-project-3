@@ -37,12 +37,6 @@ In alphabetical order:
 
 Booker is a web app book sharing community - where users share their book collections by loaning out and borrowing books from other user.
 
-![frontend_about](https://user-images.githubusercontent.com/29276064/58102423-288d9d80-7bd9-11e9-9aa1-79457fe14401.png)
-
-| Viewing all books, filtering by library, searching for a specific book and then rating and reviewing it. |
-|:--:|
-|![bookermain](https://user-images.githubusercontent.com/29276064/58099989-b0bd7400-7bd4-11e9-8639-2b7e881f3a56.gif) |
-
 ### Functionality:
 
 - The user can register, login and update or delete their user profile
@@ -52,6 +46,12 @@ Booker is a web app book sharing community - where users share their book collec
 - The user can know how far the books they want to borrow are and where other libraries are on a map
 - They can see the book title, author, reviews and ratings of books to make decisions whether to borrow the book or not
 - The user can view books out on loan and the books they are loaning in one place
+
+![frontend_about](https://user-images.githubusercontent.com/29276064/58102423-288d9d80-7bd9-11e9-9aa1-79457fe14401.png)
+
+| Viewing all books, filtering by library, searching for a specific book and then rating and reviewing it. |
+|:--:|
+|![bookermain](https://user-images.githubusercontent.com/29276064/58099989-b0bd7400-7bd4-11e9-8639-2b7e881f3a56.gif) |
 
 ## Technologies
 
@@ -155,6 +155,7 @@ Promise.all(promiseArray)
 ```
 
 ## Testing
+
 I used the seeds to test the book schema I created, along with the CRUD routes to ensure it was working.
 
 I then created a test resource for the books using chai and mocha. Supertest was a library installed to make HTTP calls within the test environment. This meant that in the test file, a local test environment could be created with 'dummy data'.
