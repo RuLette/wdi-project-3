@@ -53,7 +53,7 @@ Booker is a web app book sharing community - where users share their book collec
 |:--:|
 |![bookermain](https://user-images.githubusercontent.com/29276064/58099989-b0bd7400-7bd4-11e9-8639-2b7e881f3a56.gif) |
 
-## Technologies:
+### Technologies:
 
 | Front End | Back End | Testing | Other |
 |:---:|:---:|:---:|:---:|
@@ -66,7 +66,7 @@ Booker is a web app book sharing community - where users share their book collec
 | | bcrypt | | |
 | | dotenv | | &nbsp; |
 
-## Team Organisation
+### Team Organisation
 
 Our team met every morning so we could communicate our progress and we could discuss what to prioritise for the day. During the project we sat near one another and we were able to communicate our workflow. This also allowed rapid decision making when any of the team encountered an issue with their individual task at hand.
 
@@ -79,7 +79,7 @@ Team goals:
 - The whole team is responsible for positive outcomes and good quality code
 - Interactions better than documentation
 
-## Development process
+### Development process
 
 The development process began with our team agreeing on the functionality we wanted in our application. Early in the development stage we broke down all the application's functions into groups that would become the 'pages' of the application.
 
