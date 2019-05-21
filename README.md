@@ -21,9 +21,11 @@ https://ga-booker.herokuapp.com/
 11. [Future Features](#future-features)
 
 ## Brief
+
 With a time frame of 7 days, create a full-stack application using an Express API to serve data from a Mongo database. The front-end should be built with React, with multiple relationships and CRUD functionality for at least a couple of models. The app should have automated testing on at least one RESTful resource on the backend.
 
 ## Team
+
 In alphabetical order:
 
 | Name | GitHub |
@@ -37,7 +39,7 @@ In alphabetical order:
 
 Booker is a web app book sharing community - where users share their book collections by loaning out and borrowing books from other user.
 
-### Functionality:
+### Functionality
 
 - The user can register, login and update or delete their user profile
 - The user upload their books to the app and create a library of books so that other users can borrow them
@@ -53,7 +55,8 @@ Booker is a web app book sharing community - where users share their book collec
 |:--:|
 |![bookermain](https://user-images.githubusercontent.com/29276064/58099989-b0bd7400-7bd4-11e9-8639-2b7e881f3a56.gif) |
 
-### Technologies:
+
+### Technologies
 
 | Front End | Back End | Testing | Other |
 |:---:|:---:|:---:|:---:|
@@ -65,6 +68,7 @@ Booker is a web app book sharing community - where users share their book collec
 | Mapbox GL JS | JSON Web Tokens (JWT) | | |
 | | bcrypt | | |
 | | dotenv | | &nbsp; |
+
 
 ### Team Organisation
 
@@ -90,6 +94,7 @@ We first began creating wireframes to work out this structure and general conten
 This was an iterative, sometimes subjective, but ultimately very constructive process. Sketching out the user flows in this way greatly assisted in structuring the code and filing.
 
 When we had decided our workflow we decided all team members should experience working on the backend and front end of the application.
+
 
 # Work allocation
 
