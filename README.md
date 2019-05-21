@@ -1,6 +1,6 @@
 # **Booker** : The Community Library Project
 
-## Project 3 : Web Development Immersive, General Assembly ![General Assembly](./src/assets/readme/ga-logo.png "General Assembly logo")
+## Project 3 : Web Development Immersive
 
 ### Deployed version
 
@@ -14,11 +14,11 @@ https://ga-booker.herokuapp.com/
 4. [Technologies](#technologies)
 5. [Team Organisation](#team-organisation)
 6. [Development process](#development)
-[Project Deliverables](#project-deliverables---front-end)
-[Testing](#testing)
-[Wins](#wins)
-8. [Challenges](#challenges)
-[Future Features](#future-features)
+7. [Work allocation](#work-allocation)
+8. [Testing](#testing)
+9. [Wins](#wins)
+10. [Challenges](#challenges)
+11. [Future Features](#future-features)
 
 ## Brief
 With a time frame of 7 days, create a full-stack application using an Express API to serve data from a Mongo database. The front-end should be built with React, with multiple relationships and CRUD functionality for at least a couple of models. The app should have automated testing on at least one RESTful resource on the backend.
@@ -37,29 +37,18 @@ In alphabetical order:
 
 Booker is a web app book sharing community - where users share their book collections by loaning out and borrowing books from other user.
 
- #### Books
+<img width="750" alt="frontend_home" src="https://user-images.githubusercontent.com/29276064/58100254-2e817f80-7bd5-11e9-8dab-55acf7a1824b.png">
 
- | Viewing all books, filtering by library, searching for a specific book and then rating and reviewing it. |
- |:--:|
- | ![Books](./src/assets/readme/frontend_books_view_rate_review.gif) |
+| Viewing all books, filtering by library, searching for a specific book and then rating and reviewing it. |
+|:--:|
+|![bookermain](https://user-images.githubusercontent.com/29276064/58099989-b0bd7400-7bd4-11e9-8639-2b7e881f3a56.gif) |
 
  | Adding a new book from the main Books page |
  |:--:|
  | ![Adding a book](./src/assets/readme/frontend_books_add.gif) |
 
- #### Book Loans - Borrowed
-
- | Borrowing a book and managing loan requests for books that the logged in user has borrow |
- |:--:|
- | ![Books Borrowed](./src/assets/readme/frontend_loans_borrowed.gif) |
-
- #### Book Loans - Loaned Out
-
- | Managing loan requests for loans from the logged in user |
- |:--:|
- | ![Books Loaned Out](./src/assets/readme/frontend_loans_loanedout.gif) |
-
 Functionality:
+
 - The user can register, login and update or delete their user profile
 - The user upload their books to the app and create a library of books so that other users can borrow them
 - The user can view other peoples’ books and request to borrow books from their libraries
@@ -103,6 +92,9 @@ The full list of dependencies and dev dependencies in the [`package.json`](./pac
 
 ## Team Organisation
 
+Our team met every morning so we could communicate our progress and we could discuss what to prioritise for the day. During the project we sat near one another and we were able to communicate our workflow. This also allowed rapid decision making when any of the team encountered an issue with their individual task at hand.
+
+Team goals:
 - Team is self-organising
 - Decisions are made democratically
 - Trouble shoot early and often
@@ -111,15 +103,13 @@ The full list of dependencies and dev dependencies in the [`package.json`](./pac
 - The whole team is responsible for positive outcomes and good quality code
 - Interactions better than documentation
 
-Our team met every morning so we could communicate our progress and we could discuss what to prioritise for the day. During the project we sat near one another and we were able to communicate our workflow. This also allowed rapid decision making when any of the team encountered an issue with their individual task at hand.
-
 ## Development process
 
 The development process began with our team agreeing on the functionality we wanted in our application. Early in the development stage we broke down all the application's functions into groups that would become the 'pages' of the application.
 
 We first began creating wireframes to work out this structure and general content placement of the website. These were sketched out on pieces of paper and the arrangement of these helped us to map out a clear user journey, and separate concerns.
 
-![Libraries Logged In](./src/assets/readme/user-flow.png)
+![wireframe](https://user-images.githubusercontent.com/29276064/58099320-4b1cb800-7bd3-11e9-8031-55de3f457f4d.png)
 
 This was an iterative, sometimes subjective, but ultimately very constructive process. Sketching out the user flows in this way greatly assisted in structuring the code and filing.
 
