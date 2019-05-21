@@ -13,7 +13,7 @@ https://ga-booker.herokuapp.com/
 3. [Overview](#overview)
 4. [Technologies](#technologies)
 5. [Team Organisation](#team-organisation)
-6. [Development process](#development)
+6. [Development process](#development-process)
 7. [Work allocation](#work-allocation)
 8. [Testing](#testing)
 9. [Wins](#wins)
@@ -53,7 +53,7 @@ Booker is a web app book sharing community - where users share their book collec
 |:--:|
 |![bookermain](https://user-images.githubusercontent.com/29276064/58099989-b0bd7400-7bd4-11e9-8639-2b7e881f3a56.gif) |
 
-## Technologies
+## Technologies:
 
 | Front End | Back End | Testing | Other |
 |:---:|:---:|:---:|:---:|
@@ -286,7 +286,6 @@ Our group decided to keep the interface simple and intuitive to use. Hence styli
  - Figuring out search and filter functions in React - pulling data into the render function
  - User profile - giving users the ability to set their own location using a map marker
  - Loans - scoping features and functions to fit time lines
- - Project management of roles and division of work - sprint rules difficult to follow for a one week project
 
 ## Wins
 
