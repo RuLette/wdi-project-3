@@ -66,8 +66,6 @@ Booker is a web app book sharing community - where users share their book collec
 | | bcrypt | | |
 | | dotenv | | &nbsp; |
 
-The full list of dependencies and dev dependencies in the [`package.json`](./package.json)
-
 ## Team Organisation
 
 Our team met every morning so we could communicate our progress and we could discuss what to prioritise for the day. During the project we sat near one another and we were able to communicate our workflow. This also allowed rapid decision making when any of the team encountered an issue with their individual task at hand.
@@ -94,6 +92,8 @@ This was an iterative, sometimes subjective, but ultimately very constructive pr
 When we had decided our workflow we decided all team members should experience working on the backend and front end of the application.
 
 # Work allocation
+
+In this project, I created the book schema, book schema testing and seeds in the back end of the application, and the user profiles and forms in the front end.
 
 ### Book Schema
 
@@ -274,6 +274,7 @@ function userDelete(req, res) {
 ## Styling
 
 ### Concept
+
 Our group decided to keep the interface simple and intuitive to use. Hence styling was implemented using the [Bulma CSS framework](https://bulma.io/). Bulma has classes which are structured greatly speed up the process of creating grid layouts in particular, such as we used for the Books (All) page.
 
 ## Challenges
